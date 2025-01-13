@@ -48,6 +48,15 @@
     <ClCompile Include="OptionDisplayWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestQuestionSelectWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAnswerWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResultWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestWindow.h">
@@ -77,6 +86,15 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="DataDef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAnswerWindow.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQuestionSelectWindow.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResultWindow.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

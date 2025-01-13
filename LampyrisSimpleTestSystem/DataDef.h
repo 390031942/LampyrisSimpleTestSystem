@@ -28,3 +28,10 @@ struct TestInfo {
 	int                       limitTimeSec;
 	std::vector<QuestionInfo> questions;
 };
+
+enum class QuestionStatus {
+	Unanswered,
+	Answered,
+	Correct,
+	Incorrect
+};

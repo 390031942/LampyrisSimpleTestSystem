@@ -106,13 +106,19 @@
     <ClCompile Include="OptionDisplayItemWidget.cpp" />
     <ClCompile Include="OptionDisplayWidget.cpp" />
     <ClCompile Include="OptionEditorWindow.cpp" />
+    <ClCompile Include="TestAnswerWindow.cpp" />
     <ClCompile Include="TestEntryWindow.cpp" />
+    <ClCompile Include="TestQuestionSelectWindow.cpp" />
+    <ClCompile Include="TestResultWindow.cpp" />
     <ClCompile Include="TestWindow.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Args.h" />
     <ClInclude Include="DataDef.h" />
+    <ClInclude Include="TestAnswerWindow.h" />
+    <ClInclude Include="TestQuestionSelectWindow.h" />
+    <ClInclude Include="TestResultWindow.h" />
     <QtMoc Include="OptionDisplayItemWidget.h" />
     <QtMoc Include="OptionDisplayWidget.h" />
     <QtMoc Include="OptionEditorWindow.h" />
