@@ -100,7 +100,6 @@
     <QtUic Include="DesignWindow.ui" />
     <QtUic Include="OptionEditorWindow.ui" />
     <QtUic Include="TestEntryWindow.ui" />
-    <QtUic Include="TestWindow.ui" />
     <QtMoc Include="TestWindow.h" />
     <ClCompile Include="DesignWindow.cpp" />
     <ClCompile Include="OptionDisplayItemWidget.cpp" />

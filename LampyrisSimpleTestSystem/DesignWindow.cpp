@@ -37,8 +37,16 @@ DesignWindow::DesignWindow(QWidget* parent)
 			QHBoxLayout* topWidgetLayout = new QHBoxLayout(topWidget);
 
 			QLineEdit* inputTestName = new QLineEdit(topWidget);
+			connect(inputTestName, &QLineEdit::textChanged, [](const QString& text) {
+				g_testInfo.name = text;
+			});
+
 			QLineEdit* inputLimitTimeSec = new QLineEdit(topWidget);
-			inputLimitTimeSec->setValidator(new QIntValidator(0, 99999999));
+			connect(inputLimitTimeSec, &QLineEdit::textChanged, [](const QString& text) {
+				g_testInfo.limitTimeSec = text.toInt();
+			});
+
+			inputLimitTimeSec->setValidator(new QIntValidator(60, 99999999));
 
 			topWidgetLayout->addWidget(new QLabel("测试名称", topWidget));
 			topWidgetLayout->addWidget(inputTestName);
@@ -70,7 +78,6 @@ DesignWindow::DesignWindow(QWidget* parent)
 
 	setCentralWidget(centralWidget);
 	connect(m_tableWidget, &QTableWidget::cellDoubleClicked, this, &DesignWindow::onCellDoubleClicked);
-
 	this->setWindowTitle("问题编辑器");
 
 	// 创建快捷键 Ctrl+S
@@ -92,6 +99,16 @@ void DesignWindow::onSave() {
 	if (g_testInfo.name.isEmpty()) {
 		QMessageBox::information(NULL, "问题编辑器", "测试名不能为空");
 		return;
+	}
+	QString str = "";
+	for (int i = 0; i < g_testInfo.questions.size(); i++) {
+		auto& question = g_testInfo.questions[i];
+		if (question.options.empty()) {
+			str = str + "[第" + (i + 1) + "题]未配置选项;\n";
+		}
+		if (question.options.empty()) {
+			str = str + "[第" + (i + 1) + "题]未配置选项;\n";
+		}
 	}
 	g_testInfo.serializeToPath(PathUtil::getTestInfoJsonPath());
 	QMessageBox::information(NULL, "问题编辑器", "保存成功");
@@ -158,7 +175,9 @@ void DesignWindow::onAddRowFromInfo(const QuestionInfo& info) {
 		g_testInfo.questions[rowCount].title = lineEdit->text();
 	});
 
-	QPixmap pixmap(info.path);
+	QString realPath = QApplication::applicationDirPath() + info.path;
+	QPixmap pixmap(realPath);
+
 	if (pixmap.isNull()) {
 		QPushButton* imageButton = new QPushButton("设置图片", this);
 		connect(imageButton, &QPushButton::clicked, [this, rowCount]() {

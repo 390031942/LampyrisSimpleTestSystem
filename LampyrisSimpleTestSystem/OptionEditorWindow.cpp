@@ -11,6 +11,7 @@
 
 // QT Include(s)
 #include <QHeaderView>
+#include <QRadioButton>
 
 #pragma execution_character_set("utf-8")
 
@@ -40,11 +41,11 @@ void OptionEditorWindow::setQuestionInfo(QuestionInfo& questionInfo) {
 	this->options = &(questionInfo.options);
 	optionTable->setRowCount(options->size());
 	for (int i = 0; i < options->size(); ++i) {
-		QCheckBox* checkBox = new QCheckBox(this);
-		buttonGroup->addButton(checkBox);
+		QRadioButton* radioBtn = new QRadioButton(this);
+		buttonGroup->addButton(radioBtn);
 
-		checkBox->setChecked((*options)[i].answer);
-		optionTable->setCellWidget(i, 0, checkBox);
+		radioBtn->setChecked((*options)[i].answer);
+		optionTable->setCellWidget(i, 0, radioBtn);
 		QTableWidgetItem* item = new QTableWidgetItem((*options)[i].text);
 		optionTable->setItem(i, 1, item);
 	}
@@ -56,9 +57,9 @@ void OptionEditorWindow::onConfirm() {
 
 	this->options->clear();
 	for (int i = 0; i < optionTable->rowCount(); ++i) {
-		QCheckBox* checkBox = qobject_cast<QCheckBox*>(optionTable->cellWidget(i, 0));
+		QRadioButton* radioBtn = qobject_cast<QRadioButton*>(optionTable->cellWidget(i, 0));
 		QTableWidgetItem* item = optionTable->item(i, 1);
-		this->options->push_back({ item->text(),checkBox->isChecked() });
+		this->options->push_back({ item->text(),radioBtn->isChecked() });
 	}
 	accept();
 }
@@ -67,8 +68,11 @@ void OptionEditorWindow::onAddOption() {
 	int row = optionTable->rowCount();
 	optionTable->insertRow(row);
 
-	QCheckBox* checkBox = new QCheckBox(this);
-	optionTable->setCellWidget(row, 0, checkBox);
+	QRadioButton* radioBtn = new QRadioButton(this);
+	buttonGroup->addButton(radioBtn);
+	radioBtn->setChecked(row <= 0);
+
+	optionTable->setCellWidget(row, 0, radioBtn);
 	QTableWidgetItem* item = new QTableWidgetItem("ÐÂÑ¡Ïî");
 	optionTable->setItem(row, 1, item);
 }

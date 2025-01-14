@@ -23,10 +23,14 @@ int main(int argc, char *argv[]) {
 	QApplication a(argc, argv);
 	a.setWindowIcon(QIcon(":/resources/logo_small.png"));
 
+	// 设置全局字体为"楷体"
+	QFont font("楷体");
+	a.setFont(font);
+
 	ARGS->init(argc, argv);
 
     QWidget* mainWindowToShow = nullptr;
-    if (!ARGS->hasArgs("--design")) {
+    if (ARGS->hasArgs("--design")) {
 		if (!QDir("data").exists() && !QDir().mkpath("data")) {
 			QMessageBox::critical(NULL, "天马微 测试编辑器", "无法创建data文件夹，程序将退出");
 			return -1;

@@ -6,17 +6,21 @@
  */
 #pragma once
 
+// QT Include(s)
 #include <QtWidgets/QWidget>
-#include "ui_TestWindow.h"
 
-class TestWindow : public QWidget
-{
+// Project Include(s)
+#include "TestAnswerWindow.h"
+#include "TestQuestionSelectWindow.h"
+
+class TestWindow : public QWidget {
     Q_OBJECT
 
 public:
-    TestWindow(QWidget *parent = nullptr);
+    TestWindow(const QString& workerNumber, QWidget *parent = nullptr);
     ~TestWindow();
-
 private:
-    Ui::TestWindowClass ui;
+	TestAnswerWindow* m_answerWindow;
+    TestQuestionSelectWindow* m_selectWindow;
+    QString m_workerNumber;
 };

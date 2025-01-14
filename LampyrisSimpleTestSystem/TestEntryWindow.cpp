@@ -20,5 +20,5 @@ TestEntryWindow::~TestEntryWindow()
 {}
 
 void TestEntryWindow::onclickBtnStartTest() {
-	(new TestWindow())->show();
+	(new TestWindow(m_ui.inputWorkNumber->text()))->show();
 }
