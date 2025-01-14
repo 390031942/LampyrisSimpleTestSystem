@@ -7,59 +7,58 @@
 
  // Project Include(s)
 #include "OptionEditorWindow.h"
+#include "DataDef.h"
 
 // QT Include(s)
 #include <QHeaderView>
 
+#pragma execution_character_set("utf-8")
+
 OptionEditorWindow::OptionEditorWindow(QWidget* parent)
 	: QDialog(parent)
-	, selectedOption(-1) {
+	, buttonGroup(new QButtonGroup(this)) {
 	QVBoxLayout* layout = new QVBoxLayout(this);
 
 	optionTable = new QTableWidget(0, 2, this);
-	QStringList headers = { "Select", "Option" };
+	QStringList headers = { "是否答案", "选项" };
 	optionTable->setHorizontalHeaderLabels(headers);
 	optionTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 	layout->addWidget(optionTable);
 
-	confirmButton = new QPushButton("Confirm", this);
+	confirmButton = new QPushButton("保存选项", this);
 	connect(confirmButton, &QPushButton::clicked, this, &OptionEditorWindow::onConfirm);
 	layout->addWidget(confirmButton);
 	this->setContextMenuPolicy(Qt::CustomContextMenu);
 
 	connect(this, &OptionEditorWindow::customContextMenuRequested, this, &OptionEditorWindow::showContextMenu);
+
+	buttonGroup->setExclusive(true);
+	this->setWindowTitle("设置选项");
 }
 
-void OptionEditorWindow::setOptions(const QStringList& options) {
-	this->options = options;
-	optionTable->setRowCount(options.size());
-	for (int i = 0; i < options.size(); ++i) {
+void OptionEditorWindow::setQuestionInfo(QuestionInfo& questionInfo) {
+	this->options = &(questionInfo.options);
+	optionTable->setRowCount(options->size());
+	for (int i = 0; i < options->size(); ++i) {
 		QCheckBox* checkBox = new QCheckBox(this);
+		buttonGroup->addButton(checkBox);
+
+		checkBox->setChecked((*options)[i].answer);
 		optionTable->setCellWidget(i, 0, checkBox);
-		QTableWidgetItem* item = new QTableWidgetItem(options[i]);
+		QTableWidgetItem* item = new QTableWidgetItem((*options)[i].text);
 		optionTable->setItem(i, 1, item);
 	}
 }
 
-QStringList OptionEditorWindow::getOptions() const {
-	QStringList options;
-	for (int i = 0; i < optionTable->rowCount(); ++i) {
-		options << optionTable->item(i, 1)->text();
-	}
-	return options;
-}
-
-int OptionEditorWindow::getSelectedOption() const {
-	return selectedOption;
-}
-
 void OptionEditorWindow::onConfirm() {
+	if (!this->options)
+		return;
+
+	this->options->clear();
 	for (int i = 0; i < optionTable->rowCount(); ++i) {
 		QCheckBox* checkBox = qobject_cast<QCheckBox*>(optionTable->cellWidget(i, 0));
-		if (checkBox->isChecked()) {
-			selectedOption = i;
-			break;
-		}
+		QTableWidgetItem* item = optionTable->item(i, 1);
+		this->options->push_back({ item->text(),checkBox->isChecked() });
 	}
 	accept();
 }
@@ -70,7 +69,7 @@ void OptionEditorWindow::onAddOption() {
 
 	QCheckBox* checkBox = new QCheckBox(this);
 	optionTable->setCellWidget(row, 0, checkBox);
-	QTableWidgetItem* item = new QTableWidgetItem("New Option");
+	QTableWidgetItem* item = new QTableWidgetItem("新选项");
 	optionTable->setItem(row, 1, item);
 }
 
@@ -83,11 +82,11 @@ void OptionEditorWindow::onDeleteOption() {
 
 void OptionEditorWindow::showContextMenu(const QPoint& pos) {
 	QMenu contextMenu(this);
-	QAction addAction("Add", this);
+	QAction addAction("添加选项", this);
 	connect(&addAction, &QAction::triggered, this, &OptionEditorWindow::onAddOption);
 	contextMenu.addAction(&addAction);
 
-	QAction deleteAction("Delete", this);
+	QAction deleteAction("删除选项", this);
 	connect(&deleteAction, &QAction::triggered, this, &OptionEditorWindow::onDeleteOption);
 	contextMenu.addAction(&deleteAction);
 

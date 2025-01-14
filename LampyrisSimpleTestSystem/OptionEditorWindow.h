@@ -17,18 +17,18 @@
 #include <QMenu>
 #include <QAction>
 #include <QDialog>
+#include <QButtonGroup>
 
 // Project Include(s)
 #include "ui_OptionEditorWindow.h"
+#include "DataDef.h"
 
 class OptionEditorWindow : public QDialog {
 	Q_OBJECT
+	using OptionListPtr = std::vector<OptionInfo>*;
 public:
 	              OptionEditorWindow(QWidget* parent = nullptr);
-	void          setOptions(const QStringList& options);
-	QStringList   getOptions() const;
-	int           getSelectedOption() const;
-
+	void          setQuestionInfo(QuestionInfo& questionInfo);
 private slots:
     void          onConfirm();
     void          onAddOption();
@@ -38,7 +38,7 @@ private:
 	void          showContextMenu(const QPoint& pos);
 	QTableWidget* optionTable;
 	QPushButton*  confirmButton;
-	QStringList   options;
-	int           selectedOption;
+	OptionListPtr options;
 	int           contextMenuRow;
+	QButtonGroup* buttonGroup;
 };
