@@ -7,7 +7,7 @@
 
  // Project Include(s)
 #include "TestQuestionSelectWindow.h"
-#include "QuestionItem.h"
+#include "GlobalEventObject.h"
 
 TestQuestionSelectWindow::TestQuestionSelectWindow(QWidget* parent)
 	: QWidget(parent) {
@@ -24,26 +24,66 @@ TestQuestionSelectWindow::TestQuestionSelectWindow(QWidget* parent)
 	QVBoxLayout* mainLayout = new QVBoxLayout(this);
 	mainLayout->addWidget(scrollArea);
 	setLayout(mainLayout);
+
+	connect(&GlobalEventObject, &GlobalEventObjectClass::onQuestionIndexChanged, [this](int index) {
+		if (itemList.size() > index) {
+			if (m_lastSelectedItem != nullptr) {
+				m_lastSelectedItem->setIsCurrentShow(false);
+			}
+			auto item = itemList[index];
+			item->setIsCurrentShow(true);
+			m_lastSelectedItem = item;
+		}
+	});
+
+	connect(&GlobalEventObject, &GlobalEventObjectClass::onQuestionItemClicked, [this](int index) {
+		if (itemList.size() > index) {
+			if (m_lastSelectedItem != nullptr) {
+				m_lastSelectedItem->setIsCurrentShow(false);
+			}
+			auto item = itemList[index];
+			item->setIsCurrentShow(true);
+			m_lastSelectedItem = item;
+		}
+	});
+
+	connect(&GlobalEventObject, &GlobalEventObjectClass::onAnswerStatusChanged, [this](int index, QuestionStatus status) {
+		if (itemList.size() > index) {
+			if (m_lastSelectedItem != nullptr) {
+				m_lastSelectedItem->setQuestionStatus(status);
+			}
+		}
+	});
+
+	connect(&GlobalEventObject, &GlobalEventObjectClass::onSubmitAnswers, [this]() {
+		for (int i = 0; i < itemList.size(); i++) {
+			itemList[i]->setQuestionStatus(GlobalDataObject::answerInfo[i].status);
+		}
+	});
 }
 
-void TestQuestionSelectWindow::setQuestionStatuses(const std::vector<QuestionStatusInfo>& statuses) {
+void TestQuestionSelectWindow::initialize() {
 	int row = 0;
 	int column = 0;
 	int columns = 4; // 每行显示4个题目
 
 	this->clearLayout(layout);
 
-	for (const auto& status : statuses) {
-		QuestionItem* item = new QuestionItem(status.questionNumber, status.status, this);
+	for (int i = 0; i < GlobalDataObject::answerInfo.size(); i++) {
+		QuestionItem* item = new QuestionItem(GlobalDataObject::answerInfo[i].questionIndex, GlobalDataObject::answerInfo[i].status, this);
+		itemList.push_back(item);
 		layout->addWidget(item, row, column);
 		column++;
 		if (column >= columns) {
 			column = 0;
 			row++;
 		}
+		if (i == 0) {
+			item->setIsCurrentShow(true);
+			m_lastSelectedItem = item;
+		}
 	}
 
-	// 添加一个QSpacerItem到布局的最后一行
 	layout->setRowStretch(row + 1, 1);
 }
 

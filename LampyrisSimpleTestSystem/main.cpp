@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 
         mainWindowToShow = new DesignWindow;
     }
-    else {
+    else if(ARGS->hasArgs("--test")) {
 		if (!QDir("data").exists()) {
 			QMessageBox::critical(NULL, "天马微 测试软件", "无法找到data文件夹，数据损坏，程序将退出");
 			return -1;
@@ -48,24 +48,14 @@ int main(int argc, char *argv[]) {
 			return -1;
 		}
 		mainWindowToShow = new TestEntryWindow;
-    }
+	}
+	else {
+		return -1;
+	}
     mainWindowToShow->show();
 
     int returnVal = a.exec();
     delete mainWindowToShow;
 
     return returnVal;
-}
-
-int main1(int argc, char* argv[]) {
-	QApplication a(argc, argv);
-	ARGS->init(argc, argv);
-
-    a.setWindowIcon(QIcon(":/resources/logo_small.png"));
-	TestAnswerWindow* mainWindowToShow = new TestAnswerWindow;
-	mainWindowToShow->show();
-	int returnVal = a.exec();
-	delete mainWindowToShow;
-
-	return returnVal;
 }

@@ -16,10 +16,17 @@
 class QuestionItem : public QWidget {
 	Q_OBJECT
 public:
-	               QuestionItem(int questionNumber, QuestionStatus status, QWidget* parent = nullptr);
+	               QuestionItem(int questionIndex, QuestionStatus status, QWidget* parent = nullptr);
+	inline void    setIsCurrentShow(bool value) { isCurrentShow = value; update(); }
+	inline void    setQuestionStatus(QuestionStatus status) { this->status = status; update(); }
 protected:
 	void           paintEvent(QPaintEvent* event) override;
+	void           mousePressEvent(QMouseEvent* event) override;
+	void           enterEvent(QEvent* event) override;
+	void           leaveEvent(QEvent* event) override;
 private:
-	int            questionNumber;
+	int            questionIndex;
 	QuestionStatus status;
+	bool           isMouseInside;
+	bool           isCurrentShow;
 };

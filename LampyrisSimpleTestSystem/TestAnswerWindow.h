@@ -15,6 +15,8 @@
 #include <QHBoxLayout>
 #include <QPixmap>
 #include <QDialog>
+#include <QGraphicsView>
+#include <QGraphicsPixmapItem>
 
 class ClickableLabel : public QLabel {
 	Q_OBJECT
@@ -31,29 +33,50 @@ protected:
 
 class TestAnswerWindow : public QWidget {
 	Q_OBJECT
-
 public:
 	                TestAnswerWindow(QWidget* parent = nullptr);
+	void            checkAnswers();
+	void            initialize();
 private slots:
 	void            showOriginalImage();
 	void            onAnswerSelected(const QString& answer);
+	void            updateRightAnswer();
 private:
 	QLabel*         questionLabel;
 	ClickableLabel* imageLabel;
 	QComboBox*      answerComboBox;
+	QLabel*         answerLabel;
 	QPushButton*    prevButton;
 	QPushButton*    nextButton;
 	QPushButton*    submitButton;
+	QPixmap         pixmap;
+	int             questionIndex;
+	QWidget*        rightAnswerWidget;
+	QLabel*         rightAnswerLabel;
+	QStringList     answerList;
+	QStringList     rightAnswerList;
+	bool            showAnswer;
+	QPixmap         pixmapNull;
+	bool            isPixmapNull;
 
-	void setupUI();
-	void loadQuestion(int questionNumber);
+	void            loadQuestion();
 };
 
 class ImageDialog : public QDialog {
 	Q_OBJECT
 public:
-	        ImageDialog(const QPixmap& pixmap, QWidget* parent = nullptr);
+	ImageDialog(const QPixmap& pixmap, QWidget* parent = nullptr);
+protected:
+	void                 wheelEvent(QWheelEvent* event) override;
+	void                 mousePressEvent(QMouseEvent* event) override;
+	void                 mouseMoveEvent(QMouseEvent* event) override;
+	void                 mouseReleaseEvent(QMouseEvent* event) override;
 private:
-	QLabel* imageLabel;
-	QPixmap originalPixmap;
+	QGraphicsView*       graphicsView;
+	QGraphicsScene*      graphicsScene;
+	QGraphicsPixmapItem* pixmapItem;
+	QPoint               lastMousePos;
+	bool                 isDragging;
+	QLabel*              imageLabel;
+	QPixmap              originalPixmap;
 };

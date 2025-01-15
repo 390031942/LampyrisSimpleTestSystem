@@ -25,6 +25,12 @@
     <QtUic Include="OptionEditorWindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <ClCompile Include="DataDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalEventObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,9 +55,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestAnswerWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TestResultWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QuestionItem.cpp">
@@ -86,6 +89,9 @@
     <QtMoc Include="TestAnswerWindow.h">
       <Filter>Source Files</Filter>
     </QtMoc>
+    <QtMoc Include="GlobalEventObject.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Args.h">
@@ -95,9 +101,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="DataDef.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestResultWindow.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="PathUtil.h">

@@ -27,7 +27,7 @@ DesignWindow::DesignWindow(QWidget* parent)
 	m_ui.setupUi(this);
 
 	// 尝试加载
-	g_testInfo.deserializeFromFile(PathUtil::getTestInfoJsonPath());
+	GlobalDataObject::testInfo.deserializeFromFile(PathUtil::getTestInfoJsonPath());
 
 	QWidget* centralWidget = m_ui.centralWidget;
 	QVBoxLayout* layout = new QVBoxLayout(centralWidget);
@@ -38,12 +38,12 @@ DesignWindow::DesignWindow(QWidget* parent)
 
 			QLineEdit* inputTestName = new QLineEdit(topWidget);
 			connect(inputTestName, &QLineEdit::textChanged, [](const QString& text) {
-				g_testInfo.name = text;
+				GlobalDataObject::testInfo.name = text;
 			});
 
 			QLineEdit* inputLimitTimeSec = new QLineEdit(topWidget);
 			connect(inputLimitTimeSec, &QLineEdit::textChanged, [](const QString& text) {
-				g_testInfo.limitTimeSec = text.toInt();
+				GlobalDataObject::testInfo.limitTimeSec = text.toInt();
 			});
 
 			inputLimitTimeSec->setValidator(new QIntValidator(60, 99999999));
@@ -55,8 +55,8 @@ DesignWindow::DesignWindow(QWidget* parent)
 			topWidgetLayout->addItem(new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Preferred));
 			layout->addWidget(topWidget);
 
-			inputTestName->setText(g_testInfo.name);
-			inputLimitTimeSec->setText(QString::number(g_testInfo.limitTimeSec));
+			inputTestName->setText(GlobalDataObject::testInfo.name);
+			inputLimitTimeSec->setText(QString::number(GlobalDataObject::testInfo.limitTimeSec));
 		}
 
 		{
@@ -64,8 +64,8 @@ DesignWindow::DesignWindow(QWidget* parent)
 			setupTable();
 			layout->addWidget(m_tableWidget);
 
-			for (int i = 0; i < g_testInfo.questions.size(); i++) {
-				this->onAddRowFromInfo(g_testInfo.questions[i]);
+			for (int i = 0; i < GlobalDataObject::testInfo.questions.size(); i++) {
+				this->onAddRowFromInfo(GlobalDataObject::testInfo.questions[i]);
 			}
 		}
 
@@ -83,6 +83,11 @@ DesignWindow::DesignWindow(QWidget* parent)
 	// 创建快捷键 Ctrl+S
 	m_shortcut = new QShortcut(QKeySequence("Ctrl+S"), this);
 	connect(m_shortcut, &QShortcut::activated, this, &DesignWindow::onSave);
+
+	QLabel* permanentLabel = new QLabel("提示: Ctrl+S可以保存编辑;双击图片可以进行更改", this);
+	permanentLabel->setMinimumWidth(150); // 设置最小宽度
+
+	m_ui.statusBar->addWidget(permanentLabel);
 }
 
 DesignWindow::~DesignWindow()
@@ -96,26 +101,42 @@ void DesignWindow::setupTable() {
 }
 
 void DesignWindow::onSave() {
-	if (g_testInfo.name.isEmpty()) {
+	if (GlobalDataObject::testInfo.name.isEmpty()) {
 		QMessageBox::information(NULL, "问题编辑器", "测试名不能为空");
 		return;
 	}
 	QString str = "";
-	for (int i = 0; i < g_testInfo.questions.size(); i++) {
-		auto& question = g_testInfo.questions[i];
+	for (int i = 0; i < GlobalDataObject::testInfo.questions.size(); i++) {
+		auto& question = GlobalDataObject::testInfo.questions[i];
 		if (question.options.empty()) {
-			str = str + "[第" + (i + 1) + "题]未配置选项;\n";
+			str = str + "[第" + QString::number(i + 1) + "题]未配置选项;\n";
 		}
-		if (question.options.empty()) {
-			str = str + "[第" + (i + 1) + "题]未配置选项;\n";
+		else {
+			bool findRightOption = false;
+			for (int j = 0; j < question.options.size(); j++) {
+				if (question.options[j].answer) {
+					findRightOption = true;
+					break;
+				}
+			}
+			if (!findRightOption) {
+				str = str + "[第" + QString::number(i + 1) + "题]未配置正确选项;\n";
+			}
+		}
+		if (question.path.isEmpty()) {
+			str = str + "[第" + QString::number(i + 1) + "题]未配置图片;\n";
 		}
 	}
-	g_testInfo.serializeToPath(PathUtil::getTestInfoJsonPath());
+	if (!str.isEmpty()) {
+		QMessageBox::information(NULL, "问题编辑器", "保存失败,请检查一下内容:\n" + str);
+		return;
+	}
+	GlobalDataObject::testInfo.serializeToPath(PathUtil::getTestInfoJsonPath());
 	QMessageBox::information(NULL, "问题编辑器", "保存成功");
 }
 
 void DesignWindow::onAddRow() {
-	g_testInfo.questions.push_back({});
+	GlobalDataObject::testInfo.questions.push_back({});
 	onAddRowFromInfo({});
 }
 
@@ -130,7 +151,7 @@ void DesignWindow::onSelectImage(int row) {
 		}
 		filePath = "/data" + filePath.replace(dataPath, "");
 		createImageCell(filePath, row);
-		g_testInfo.questions[row].path = filePath;
+		GlobalDataObject::testInfo.questions[row].path = filePath;
 	}
 }
 
@@ -172,7 +193,10 @@ void DesignWindow::onAddRowFromInfo(const QuestionInfo& info) {
 	lineEdit->setText(info.title);
 	m_tableWidget->setCellWidget(m_rowCount, 0, lineEdit);
 	connect(lineEdit, &QLineEdit::editingFinished, [this, rowCount, lineEdit]() {
-		g_testInfo.questions[rowCount].title = lineEdit->text();
+		auto& questions = GlobalDataObject::testInfo.questions;
+		if (rowCount < questions.size()) {
+			questions[rowCount].title = lineEdit->text();
+		}
 	});
 
 	QString realPath = QApplication::applicationDirPath() + info.path;
@@ -215,11 +239,11 @@ void DesignWindow::onAddRowFromInfo(const QuestionInfo& info) {
 
 void DesignWindow::onEditOptions(int row) {
 	OptionEditorWindow editor(this);
-	if (g_testInfo.questions.size() <= row) {
+	if (GlobalDataObject::testInfo.questions.size() <= row) {
 		return;
 	}
-	auto& options = g_testInfo.questions[row].options;
-	editor.setQuestionInfo(g_testInfo.questions[row]);
+	auto& options = GlobalDataObject::testInfo.questions[row].options;
+	editor.setQuestionInfo(GlobalDataObject::testInfo.questions[row]);
 
 	if (editor.exec() == QDialog::Accepted) {
 		accpetOptions(row, options);
@@ -248,7 +272,7 @@ void DesignWindow::onDeleteRow(int row) {
 	if (row >= 0) {
 		m_tableWidget->removeRow(row);
 		m_rowCount--;
-		g_testInfo.questions.erase(g_testInfo.questions.begin() + row);
+		GlobalDataObject::testInfo.questions.erase(GlobalDataObject::testInfo.questions.begin() + row);
 	}
 }
 

@@ -7,14 +7,16 @@
 
 // Project Include(s)
 #include "QuestionItem.h"
+#include "GlobalEventObject.h"
 
 // QT Include(s)
 #include <QPainter>
 #include <QFontMetrics>
 
-QuestionItem::QuestionItem(int questionNumber, QuestionStatus status, QWidget* parent)
-	: QWidget(parent), questionNumber(questionNumber), status(status) {
-	setFixedSize(50, 50);
+QuestionItem::QuestionItem(int questionIndex, QuestionStatus status, QWidget* parent)
+	: QWidget(parent), questionIndex(questionIndex), status(status), isCurrentShow(false), isMouseInside(false) {
+	this->setFixedSize(50, 50);
+	this->setMouseTracking(true);
 }
 
 void QuestionItem::paintEvent(QPaintEvent* event) {
@@ -49,8 +51,45 @@ void QuestionItem::paintEvent(QPaintEvent* event) {
 
 	painter.setPen(Qt::black);
 	QFontMetrics metrics(font());
-	QString text = QString::number(questionNumber);
+	QString text = QString::number(questionIndex + 1);
 	int textWidth = metrics.horizontalAdvance(text);
 	int textHeight = metrics.height();
 	painter.drawText(circleRect, Qt::AlignCenter, text);
+
+	if (isMouseInside || isCurrentShow) {
+		painter.setBrush(Qt::NoBrush);
+
+		QPen pen;
+		if (isCurrentShow) {
+			pen.setColor(Qt::red);
+		}
+		else {
+			pen.setColor(Qt::black);
+		}
+		pen.setWidth(2);
+		painter.setPen(pen);
+
+		painter.drawEllipse(circleRect);
+	}
+}
+
+void QuestionItem::mousePressEvent(QMouseEvent* event) {
+	Q_UNUSED(event);
+
+	QWidget::mousePressEvent(event);
+	emit GlobalEventObject.onQuestionItemClicked(questionIndex);
+}
+
+void QuestionItem::enterEvent(QEvent* event) {
+	Q_UNUSED(event);
+
+	isMouseInside = true;
+	update();
+}
+
+void QuestionItem::leaveEvent(QEvent* event) {
+	Q_UNUSED(event);
+
+	isMouseInside = false;
+	update();
 }

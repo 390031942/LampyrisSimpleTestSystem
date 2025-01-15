@@ -7,7 +7,8 @@
 #pragma once
 
 // Project Include(s)
-#include <DataDef.h>
+#include "DataDef.h"
+#include "QuestionItem.h"
 
 // QT Include(s)
 #include <QWidget>
@@ -16,14 +17,15 @@
 
 class TestQuestionSelectWindow : public QWidget {
 	Q_OBJECT
-
+	using ItemList = std::vector<QuestionItem*>;
 public:
-	             TestQuestionSelectWindow(QWidget* parent = nullptr);
-	void         setQuestionStatuses(const std::vector<QuestionStatusInfo>& statuses);
-private:
-	QScrollArea* scrollArea;
-	QWidget*     containerWidget;
-	QGridLayout* layout;
-
-	void         clearLayout(QLayout* layout);
+	               TestQuestionSelectWindow(QWidget* parent = nullptr);
+	void           initialize();
+private:		   
+	QScrollArea*   scrollArea;
+	QWidget*       containerWidget;
+	QGridLayout*   layout;
+	ItemList       itemList;
+	QuestionItem*  m_lastSelectedItem;
+	void           clearLayout(QLayout* layout);
 };

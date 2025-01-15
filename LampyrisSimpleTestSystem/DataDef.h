@@ -117,8 +117,13 @@ enum class QuestionStatus {
 };
 
 struct QuestionStatusInfo {
-	int            questionNumber;
-	QuestionStatus status;
+	int            questionIndex;
+	int            selectedOption = -1;
+	QuestionStatus status = QuestionStatus::Unanswered;
 };
 
-static TestInfo g_testInfo;
+class GlobalDataObject {
+public:
+	static TestInfo                        testInfo;
+	static std::vector<QuestionStatusInfo> answerInfo;
+};

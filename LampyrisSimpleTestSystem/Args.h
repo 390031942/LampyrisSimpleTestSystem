@@ -69,7 +69,7 @@ namespace __hidden {
 		QMap<QString, QVector<QString>> m_argsMap;
 		bool                            m_inited;
 	};
-} // // end of namespace '__hidden'
+} // end of namespace '__hidden'
 
 #ifndef Args
 #define ARGS __hidden::Args::getInstance()

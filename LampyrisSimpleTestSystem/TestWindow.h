@@ -8,6 +8,7 @@
 
 // QT Include(s)
 #include <QtWidgets/QWidget>
+#include <QDateTime>
 
 // Project Include(s)
 #include "TestAnswerWindow.h"
@@ -15,12 +16,16 @@
 
 class TestWindow : public QWidget {
     Q_OBJECT
-
 public:
-    TestWindow(const QString& workerNumber, QWidget *parent = nullptr);
-    ~TestWindow();
+                              TestWindow(const QString& workerNumber, QWidget *parent = nullptr);
+                             ~TestWindow();
+private slots:
+    void                      updateWindowTitle();
 private:
-	TestAnswerWindow* m_answerWindow;
+	TestAnswerWindow*         m_answerWindow;
     TestQuestionSelectWindow* m_selectWindow;
-    QString m_workerNumber;
+    QString                   m_workerNumber;
+	QDateTime                 m_startDateTime;
+	QDateTime                 m_endDateTime;
+	QTimer*                   m_timer;
 };

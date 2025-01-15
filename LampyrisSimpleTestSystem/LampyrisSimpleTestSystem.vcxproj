@@ -36,7 +36,7 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
-    <QtInstall>5_14_2</QtInstall>
+    <QtInstall>_Qt-static</QtInstall>
     <QtModules>core;gui;widgets</QtModules>
     <QtBuildConfig>debug</QtBuildConfig>
   </PropertyGroup>
@@ -64,6 +64,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
@@ -101,7 +106,9 @@
     <QtUic Include="OptionEditorWindow.ui" />
     <QtUic Include="TestEntryWindow.ui" />
     <QtMoc Include="TestWindow.h" />
+    <ClCompile Include="DataDef.cpp" />
     <ClCompile Include="DesignWindow.cpp" />
+    <ClCompile Include="GlobalEventObject.cpp" />
     <ClCompile Include="OptionDisplayItemWidget.cpp" />
     <ClCompile Include="OptionDisplayWidget.cpp" />
     <ClCompile Include="OptionEditorWindow.cpp" />
@@ -109,18 +116,17 @@
     <ClCompile Include="TestAnswerWindow.cpp" />
     <ClCompile Include="TestEntryWindow.cpp" />
     <ClCompile Include="TestQuestionSelectWindow.cpp" />
-    <ClCompile Include="TestResultWindow.cpp" />
     <ClCompile Include="TestWindow.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Args.h" />
     <ClInclude Include="DataDef.h" />
+    <QtMoc Include="GlobalEventObject.h" />
     <ClInclude Include="PathUtil.h" />
     <QtMoc Include="QuestionItem.h" />
     <QtMoc Include="TestAnswerWindow.h" />
     <QtMoc Include="TestQuestionSelectWindow.h" />
-    <ClInclude Include="TestResultWindow.h" />
     <QtMoc Include="OptionDisplayItemWidget.h" />
     <QtMoc Include="OptionDisplayWidget.h" />
     <QtMoc Include="OptionEditorWindow.h" />
