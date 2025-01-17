@@ -5,6 +5,7 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_DESIGN
  // Project Include(s)
 #include "OptionEditorWindow.h"
 #include "DataDef.h"
@@ -101,3 +102,4 @@ void OptionEditorWindow::showContextMenu(const QPoint& pos) {
 
 	contextMenu.exec(optionTable->viewport()->mapToGlobal(pos));
 }
+#endif // !LAMPYRIS_DESIGN

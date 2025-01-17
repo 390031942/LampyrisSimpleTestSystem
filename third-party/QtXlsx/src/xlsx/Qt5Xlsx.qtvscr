@@ -1,0 +1,1723 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2025-01-16 11:01:44",
+  "files": {
+    "C:\\Users\\Administrator\\source\\repos\\QtXlsxWriter\\src\\xlsx\\Qt5Xlsx.vcxproj": {
+      "before": "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",
+      "after": "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"
+    },
+    "C:\\Users\\Administrator\\source\\repos\\QtXlsxWriter\\src\\xlsx\\Qt5Xlsx.vcxproj.filters": {
+      "before": "5Vpdb9s2FO3zgP0Hw8AeZclfsT0pKSxH7vJWoNhbgYImryO2lMiRVOJ02H8fJdmSv7C4bW6AYkYMx7J9jw4veXnPkYrf3ryJ3m4y0XkAbbjMr7v9XtDtQE4l4/n9dbewa2/afXvz6y/Rey0/A7Ud9/XcXHdTa9Xvvm9oChkxvYxTLY1c2x6Vmc/gAYRUoP3MrAoumD8IgmHXhel0ojsL2TstC1W9dQeWXFjQnbucioLBdfcd5KCJBdZxn4Cpf9Zxj+jPnP9VwB2D3PI1B33z96Sf3E7dnzdfxDNvtEhmXhwnfS8JgngY9EejpN//J/JPflieSRUy2VjIS+7mhioV0pBuNmEmaZiGDNahZCLk7qnBhJG/9+U6QOTXJ/8/oPIHEOay9HxKZsPZbDycBt50Ft96o1Uw8qbTJPauBuNlnIwHSbyML01JGqYuKalLSZqFPHe5yGm4Mew7UvGzn/8HWWgKF4z/aLmYDCfLvreYzMfeaDi58ubB1ZU3mA8Ht5PxYD5YLi8d/3ZJ7C+GVH0OV8SGxGTlc/Md2fiJ2UT+YQU7LWgLsZCZcrWrrWkbYTZkZawm1Erpaujafdxzw7tX3balZH9ojuuL34TeVZzmwHkskwK4moyGQ0EI5PBrqbNCEGQUTfJ7zISUA6VhDdptrqg4KdGoCS/jo88qKaTGTLjMGbdu0yeinF3EWtft4OK5LsPaJwUGEYYRSx6I4O7VccMEklRpqQxR6hVQqNSYK4ZJWmQuO5hMNHnEnWGsRiA5TVFXTr1cEIcqA8YJ8uaYF1nNQxFtALPQaBDVWjQpV5grX3OauuYCd44ZV/qB1TCYZAzPlIDX6JKMfXICE3E2W6eOMWtXYbng9gmRwaPUX1ZSfkGGwO4ovnKlKwGLyMNhPGrurIwfxrhEYmztkvNtf7t40lOBsa+EzwiMbeBWYFyG9En1sLHqSfIqKIhsKsmERaIMjnzuOz2GSWGLgcyk1nyYPFrFh4ZS6T3U6JhZaNUkKoWqcmDyKAUravxzghVtyM7JY1x2jTxGhDmSx1ijdwiDyadV4a+AUqrwF4EpjJVZXF4VOuxdGh3+zYlpIz7TtOwgXoSHONsXbYU4PkIt9RFxtlL/m7OxG5dnclGHRzz/eyFXRKA1pY1RgUjhyKhARDowKjBxWqMCa2K1XggijwMvBBPn0AvBRKq8EESAygtBjL/1QhARGi8Ea+ruAJA54OrokgR2v93YOYgj1dg5P4xxgZ3TtjBtU9Rzt6F8ZLAq7j+6/z45A8tdhDe9tEdX9tTVObpr5tTYaSGanbk9dITqtgMgBrBwT6+PH3EtL5fvmrXzbtqzdHcYDdndgf+g+tKwh4mP/O09VDf/Ag==",
+      "after": "5Vrbbts4EO3zAv0Hw9hXWfIttldKCsuR2zws0GKxbwUKmhxHbCmRJanEadF/X0pyJN+AuJcJUGwQI4kvc3hmyNGcE33788WL6NUmE5070IbL/LLb7wXdDuRUMp7fXnYLu/am3VdXL/+I3mr5EajtuLfn5rKbWqv+8n1DU8iI6WWcamnk2vaozHwGdyCkAu1nZlVwwfxBEAy7LkynE91YyF5rWajqT/fEkgsLunOTU1EwuOy+hhw0scA67hUw9cc67iv6N+efC7hhkFu+5qCvvk76yfXUfXvzRTzzRotk5sVx0veSIIiHQX80Svr9b5F/9MFyJVXIZGMhL7mbK6pUSEO62YSZpGEaMliHkomQu4cGE0b+zpvrAJFfL/5/QOUNEOaq9HRJZsPZbDycBt50Fl97o1Uw8qbTJPYuBuNlnIwHSbyMzy1JGqauKKkrSZqFPHe1yGm4MewHSvG7r/8fWWgKZ+R/tFxMhpNl31tM5mNvNJxcePPg4sIbzIeD68l4MB8sl+fmvz0Su4chVR/DFbEhMVn52PxANX5jNpG/38GOG9pCLGSmXO9qe9pGmA1ZGasJtVK6Hrp2L/dcene627aV7KbmsL/4TejHjtM8cRrLpACuJ6PhUBACOfxa6qwQBBlFk/wWsyBlojSsQbuLKypOSjRqwcv46LtKCqkxCy5zxq276BNR7i5irZt2cPHclGHtgwKDCMOIJXdEcPfTccMEklRpqQxR6hlQqNSYJ4ZJWmSuOphMNLnH3WGsRiA5TVFPTn1cEFOVAeME+eKYF1nNQxFtALPRaBDVWTQpV5gnX3OauuECd48Z1/qB1TCYZAzPlIDnmJKMfXACE3E3W6eOMXtXYbng9gGRwb3Un1ZSfkKGwJ4ovnClKwGLyMNh3GvurIyfxjhHYmztktNjf3t40mOBsauETwiMbeBWYJyH9EH1sLHqTfIsKIhsKsmERaIMjrz2Rz2GSWGLgcyk1nyYPFrFh4ZS6T3U6JhVaNUkKoWqc2DyKAUravxTghUtZafkMS67Rh4jwhzIY6zs7cNg8mlV+DOglCr8V8C8s39Luj+1NAr8e0tSxXpiUHkM/ivWvhAnZ6Gt+MZHqOU9Is5W3n9vHZq8PFGLOjzi+m+FXBGBNog25gQihQNzAhFpz5zAxGnNCayN1fofiDz2/A9MnH3/AxOp8j8QASr/AzH+1v9ARGj8D6yt+wiAzAFXO5cksGfsxsJBzFRj4fw0xhkWTmGszOLy9ph2HOq5W0/eM1gVt+/dbx+caeX+8W56aY+u7LGTc3CnzLGZ00I0V+b2qQNUdzkAYgADdz8Zkb+9l+jqPw=="
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2025-01-16 11:01:44</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Replacing paths with "$(QTDIR)"]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp;.;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtGui\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtGui\5]]></Span><Span><![CDATA[.14.2\QtGui;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtANGLE]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtCore\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtCore\5]]></Span><Span><![CDATA[.14.2\QtCore;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtCore]]></Span><Span><![CDATA[;.moc\debug;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp;.;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtGui\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtGui\5]]></Span><Span><![CDATA[.14.2\QtGui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtANGLE]]></Span><Span><![CDATA[;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtCore\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtCore\5]]></Span><Span><![CDATA[.14.2\QtCore;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtCore]]></Span><Span><![CDATA[;.moc\debug;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp;.;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtGui\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtGui\5]]></Span><Span><![CDATA[.14.2\QtGui;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtANGLE]]></Span><Span><![CDATA[;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtCore\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtCore\5]]></Span><Span><![CDATA[.14.2\QtCore;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\include\QtCore]]></Span><Span><![CDATA[;.moc\release;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp;.;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtGui\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtGui\5]]></Span><Span><![CDATA[.14.2\QtGui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include]]></Span><Span><![CDATA[;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtGui]]></Span><Span><![CDATA[;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtANGLE]]></Span><Span><![CDATA[;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtCore\5]]></Span><Span><![CDATA[.14.2;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtCore\5]]></Span><Span><![CDATA[.14.2\QtCore;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\include\QtCore]]></Span><Span><![CDATA[;.moc\release;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xlsxdocument.h;.moc\debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xlsxdocument.h;.moc\debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[D:\Qt-static\bin\moc]]></Span><Span><![CDATA[.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DXLSX_TEST -DQT_NO_EXCEPTIONS -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/.moc/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/tmp -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtGui/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtGui/5]]></Span><Span><![CDATA[.14.2/QtGui ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtCore/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtCore/5]]></Span><Span><![CDATA[.14.2/QtCore ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\debug\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DXLSX_TEST -DQT_NO_EXCEPTIONS -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/.moc/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/tmp -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui/5]]></Span><Span><![CDATA[.14.2/QtGui ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore/5]]></Span><Span><![CDATA[.14.2/QtCore ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\debug\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xlsxdocument.h;.moc\release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xlsxdocument.h;.moc\release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[D:\Qt-static\bin\moc]]></Span><Span><![CDATA[.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DNDEBUG -DQT_NO_EXCEPTIONS -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/.moc/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/tmp -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtGui/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtGui/5]]></Span><Span><![CDATA[.14.2/QtGui ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtCore/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtCore/5]]></Span><Span><![CDATA[.14.2/QtCore ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/Qt-static/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\release\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DNDEBUG -DQT_NO_EXCEPTIONS -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/.moc/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/tmp -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui/5]]></Span><Span><![CDATA[.14.2/QtGui ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore/5]]></Span><Span><![CDATA[.14.2 ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore/5]]></Span><Span><![CDATA[.14.2/QtCore ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\release\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">D:\Qt-static\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;.moc\debug\moc_predefs.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;.moc\debug\moc_predefs.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">D:\Qt-static\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightCoral"><![CDATA[D:\Qt-static\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;.moc\release\moc_predefs.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E ]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\mkspecs\features\data\dummy]]></Span><Span><![CDATA[.cpp 2&gt;NUL &gt;.moc\release\moc_predefs.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Replacing paths with "."]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DXLSX_TEST -DQT_NO_EXCEPTIONS -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/]]></Span><Span><![CDATA[.moc/debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/tmp]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include/QtGui/5.14.2 -I$(QTDIR)/include/QtGui/5.14.2/QtGui -I$(QTDIR)/include -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtCore/5.14.2 -I$(QTDIR)/include/QtCore/5.14.2/QtCore -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\debug\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DXLSX_TEST -DQT_NO_EXCEPTIONS -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./]]></Span><Span><![CDATA[.moc/debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I./tmp]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include/QtGui/5.14.2 -I$(QTDIR)/include/QtGui/5.14.2/QtGui -I$(QTDIR)/include -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtCore/5.14.2 -I$(QTDIR)/include/QtCore/5.14.2/QtCore -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\debug\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DNDEBUG -DQT_NO_EXCEPTIONS -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/]]></Span><Span><![CDATA[.moc/release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx/tmp]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Users/Administrator/source/repos/QtXlsxWriter/src/xlsx]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include/QtGui/5.14.2 -I$(QTDIR)/include/QtGui/5.14.2/QtGui -I$(QTDIR)/include -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtCore/5.14.2 -I$(QTDIR)/include/QtCore/5.14.2/QtCore -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\release\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DNDEBUG -DQT_NO_EXCEPTIONS -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./]]></Span><Span><![CDATA[.moc/release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I./tmp]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include/QtGui/5.14.2 -I$(QTDIR)/include/QtGui/5.14.2/QtGui -I$(QTDIR)/include -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtCore/5.14.2 -I$(QTDIR)/include/QtCore/5.14.2/QtCore -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\release\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting custom build steps to Qt/MSBuild items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>.;..]]></Span><Span><![CDATA[\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span Background="LightCoral"><![CDATA[;.;]]></Span><Span><![CDATA[$(QTDIR)\include\QtGui\5.14.2;$(QTDIR)\include\QtGui\5.14.2\QtGui;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtCore\5.14.2;$(QTDIR)\include\QtCore\5.14.2\QtCore;$(QTDIR)\include\QtCore;.moc\debug;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..]]></Span><Span><![CDATA[\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span Background="LightGreen"><![CDATA[;]]></Span><Span><![CDATA[$(QTDIR)\include\QtGui\5.14.2;$(QTDIR)\include\QtGui\5.14.2\QtGui;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtCore\5.14.2;$(QTDIR)\include\QtCore\5.14.2\QtCore;$(QTDIR)\include\QtCore;.moc\debug;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <QTDIR>$(QTDIR)</QTDIR>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <InputFile>%(FullPath)</InputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <OutputFile>.moc\$(Configuration)\moc_%(Filename).cpp</OutputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;C:/Users/Administrator/source/repos/QtXlsxWriter/include;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx;./tmp;$(QTDIR)/include/QtGui/5.14.2;$(QTDIR)/include/QtGui/5.14.2/QtGui;$(QTDIR)/include;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtANGLE;$(QTDIR)/include/QtCore/5.14.2;$(QTDIR)/include/QtCore/5.14.2/QtCore;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;XLSX_TEST;QT_NO_EXCEPTIONS;QT_GUI_LIB;QT_CORE_LIB</Define>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <CompilerFlavor>msvc</CompilerFlavor>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <Include>./.moc/$(Configuration)/moc_predefs.h</Include>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <DynamicSource>output</DynamicSource>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    </QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>.;..]]></Span><Span><![CDATA[\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span Background="LightCoral"><![CDATA[;.;]]></Span><Span><![CDATA[$(QTDIR)\include\QtGui\5.14.2;$(QTDIR)\include\QtGui\5.14.2\QtGui;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtCore\5.14.2;$(QTDIR)\include\QtCore\5.14.2\QtCore;$(QTDIR)\include\QtCore;.moc\release;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..]]></Span><Span><![CDATA[\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span Background="LightGreen"><![CDATA[;]]></Span><Span><![CDATA[$(QTDIR)\include\QtGui\5.14.2;$(QTDIR)\include\QtGui\5.14.2\QtGui;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtCore\5.14.2;$(QTDIR)\include\QtCore\5.14.2\QtCore;$(QTDIR)\include\QtCore;.moc\release;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <QTDIR>$(QTDIR)</QTDIR>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <InputFile>%(FullPath)</InputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <OutputFile>.moc\$(Configuration)\moc_%(Filename).cpp</OutputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;C:/Users/Administrator/source/repos/QtXlsxWriter/include;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx;./tmp;$(QTDIR)/include/QtGui/5.14.2;$(QTDIR)/include/QtGui/5.14.2/QtGui;$(QTDIR)/include;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtANGLE;$(QTDIR)/include/QtCore/5.14.2;$(QTDIR)/include/QtCore/5.14.2/QtCore;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;NDEBUG;QT_NO_EXCEPTIONS;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB</Define>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <CompilerFlavor>msvc</CompilerFlavor>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <Include>./.moc/$(Configuration)/moc_predefs.h</Include>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <DynamicSource>output</DynamicSource>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    </QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="xlsxdocument.]]></Span><Span Background="LightCoral"><![CDATA[h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="xlsxdocument.]]></Span><Span Background="LightGreen"><![CDATA[h" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xlsxdocument.h;.moc\debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Rem IncrediBuild_AllowRemote ]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[Rem IncrediBuild_OutputFile moc_header.output ]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DXLSX_TEST -DQT_NO_EXCEPTIONS -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./.moc/debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx -I./tmp -I. -I$(QTDIR)/include/QtGui/5.14.2 -I$(QTDIR)/include/QtGui/5.14.2/QtGui -I$(QTDIR)/include -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtCore/5.14.2 -I$(QTDIR)/include/QtCore/5.14.2/QtCore -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\debug\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC xlsxdocument.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.moc\debug\moc_xlsxdocument.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xlsxdocument.h;.moc\release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Rem IncrediBuild_AllowRemote ]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[Rem IncrediBuild_OutputFile moc_header.output ]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_NO_LINKED_LIST -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT -DQT_BUILD_XLSX_LIB -DQT_BUILDING_QT -D_CRT_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x040800 -DQT_DEPRECATED_WARNINGS_SINCE=0x060000 -DNDEBUG -DQT_NO_EXCEPTIONS -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./.moc/release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -IC:/Users/Administrator/source/repos/QtXlsxWriter/include -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0 -IC:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx -I./tmp -I. -I$(QTDIR)/include/QtGui/5.14.2 -I$(QTDIR)/include/QtGui/5.14.2/QtGui -I$(QTDIR)/include -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtCore/5.14.2 -I$(QTDIR)/include/QtCore/5.14.2/QtCore -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" xlsxdocument.h -o .moc\release\moc_xlsxdocument.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC xlsxdocument.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.moc\release\moc_xlsxdocument.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.]]></Span><Span Background="LightCoral"><![CDATA[moc\debug\moc_predefs]]></Span><Span><![CDATA[.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.]]></Span><Span Background="LightGreen"><![CDATA[moc\$(IntDir)\moc_predefs]]></Span><Span><![CDATA[.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.]]></Span><Span Background="LightCoral"><![CDATA[moc\debug\moc_predefs]]></Span><Span><![CDATA[.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.]]></Span><Span Background="LightGreen"><![CDATA[moc\$(IntDir)\moc_predefs]]></Span><Span><![CDATA[.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.]]></Span><Span Background="LightCoral"><![CDATA[moc\release\moc_predefs]]></Span><Span><![CDATA[.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -std:c++17 -utf-8 /wd4530 /wd4577 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.]]></Span><Span Background="LightGreen"><![CDATA[moc\$(IntDir)\moc_predefs]]></Span><Span><![CDATA[.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.]]></Span><Span Background="LightCoral"><![CDATA[moc\release\moc_predefs]]></Span><Span><![CDATA[.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.]]></Span><Span Background="LightGreen"><![CDATA[moc\$(IntDir)\moc_predefs]]></Span><Span><![CDATA[.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include=".moc\debug\moc_xlsxdocument.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include=".moc\release\moc_xlsxdocument.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj.filters]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="xlsxdocument.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="xlsxdocument.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include=".moc\debug\moc_xlsxdocument.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include=".moc\release\moc_xlsxdocument.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<Keyword>Qt4VSv1.0</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Copying Qt build reference to QtInstall project property]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[  ]]></Span><Span Background="LightCoral"><![CDATA[<PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtInstall>_Qt-static</QtInstall>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtInstall>_Qt-static</QtInstall>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt module macros from compiler properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;XLSX_TEST;QT_NO_EXCEPTIONS;]]></Span><Span Background="LightCoral"><![CDATA[QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;XLSX_TEST;QT_NO_EXCEPTIONS;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;NDEBUG;QT_NO_EXCEPTIONS;QT_NO_DEBUG;]]></Span><Span Background="LightCoral"><![CDATA[QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;NDEBUG;QT_NO_EXCEPTIONS;QT_NO_DEBUG;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt module include paths from compiler properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span Background="LightCoral"><![CDATA[;$(QTDIR)\include\QtGui\5.14.2;$(QTDIR)\include\QtGui\5.14.2\QtGui;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtCore\5.14.2;$(QTDIR)\include\QtCore\5.14.2\QtCore;$(QTDIR)\include\QtCore]]></Span><Span><![CDATA[;.moc\debug]]></Span><Span Background="LightCoral"><![CDATA[;$(QTDIR)\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span><![CDATA[;.moc\debug]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span Background="LightCoral"><![CDATA[;$(QTDIR)\include\QtGui\5.14.2;$(QTDIR)\include\QtGui\5.14.2\QtGui;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtCore\5.14.2;$(QTDIR)\include\QtCore\5.14.2\QtCore;$(QTDIR)\include\QtCore]]></Span><Span><![CDATA[;.moc\release]]></Span><Span Background="LightCoral"><![CDATA[;$(QTDIR)\mkspecs\win32-msvc]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..\..\include;..\..\include\QtXlsx;..\..\include\QtXlsx\0.3.0;..\..\include\QtXlsx\0.3.0\QtXlsx;tmp]]></Span><Span><![CDATA[;.moc\release]]></Span><Span><![CDATA[;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt module macros from resource compiler properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;XLSX_TEST;QT_NO_EXCEPTIONS;]]></Span><Span Background="LightCoral"><![CDATA[QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;XLSX_TEST;QT_NO_EXCEPTIONS;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;NDEBUG;QT_NO_EXCEPTIONS;QT_NO_DEBUG;]]></Span><Span Background="LightCoral"><![CDATA[QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;NDEBUG;QT_NO_EXCEPTIONS;QT_NO_DEBUG;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Adding Qt module names to QtModules project property]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtModules>core;core-private;gui;gui-private</QtModules>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtModules>core;core-private;gui;gui-private</QtModules>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting OutputFile to <tool>Dir and <tool>FileName]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <QtMocDir>.moc\$(Configuration)</QtMocDir>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <QtMocDir>.moc\$(Configuration)</QtMocDir>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing old properties from project items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\Administrator\source\repos\QtXlsxWriter\src\xlsx\Qt5Xlsx.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <QTDIR>$(QTDIR)</QTDIR>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <InputFile>%(FullPath)</InputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <OutputFile>.moc\$(Configuration)\moc_%(Filename).cpp</OutputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;C:/Users/Administrator/source/repos/QtXlsxWriter/include;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx;./tmp;$(QTDIR)/include/QtGui/5.14.2;$(QTDIR)/include/QtGui/5.14.2/QtGui;$(QTDIR)/include;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtANGLE;$(QTDIR)/include/QtCore/5.14.2;$(QTDIR)/include/QtCore/5.14.2/QtCore;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;XLSX_TEST;QT_NO_EXCEPTIONS;QT_GUI_LIB;QT_CORE_LIB</Define>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <QTDIR>$(QTDIR)</QTDIR>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <InputFile>%(FullPath)</InputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <OutputFile>.moc\$(Configuration)\moc_%(Filename).cpp</OutputFile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;C:/Users/Administrator/source/repos/QtXlsxWriter/include;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0;C:/Users/Administrator/source/repos/QtXlsxWriter/include/QtXlsx/0.3.0/QtXlsx;./tmp;$(QTDIR)/include/QtGui/5.14.2;$(QTDIR)/include/QtGui/5.14.2/QtGui;$(QTDIR)/include;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtANGLE;$(QTDIR)/include/QtCore/5.14.2;$(QTDIR)/include/QtCore/5.14.2/QtCore;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_LINKED_LIST;QT_NO_NARROWING_CONVERSIONS_IN_CONNECT;QT_BUILD_XLSX_LIB;QT_BUILDING_QT;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;QT_DEPRECATED_WARNINGS;QT_DISABLE_DEPRECATED_BEFORE=0x040800;QT_DEPRECATED_WARNINGS_SINCE=0x060000;NDEBUG;QT_NO_EXCEPTIONS;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB</Define>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--OrRrbr6NOyZ7ckpVUc7fwoO2JSBZenm+BDzrNJJtW8E=-->

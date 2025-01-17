@@ -5,6 +5,7 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_TEST
  // Project Include(s)
 #include "TestEntryWindow.h"
 #include "TestWindow.h"
@@ -43,3 +44,4 @@ void TestEntryWindow::onclickBtnStartTest() {
 	close();
 	(new TestWindow(m_ui.inputWorkNumber->text()))->show();
 }
+#endif // !LAMPYRIS_TEST

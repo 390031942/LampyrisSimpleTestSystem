@@ -5,6 +5,8 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_DESIGN
+
 // Project Include(s)
 #include "OptionDisplayWidget.h"
 #include "OptionDisplayItemWidget.h"
@@ -23,3 +25,4 @@ void OptionDisplayWidget::setOptions(const std::vector<OptionInfo>& options) {
 		layout->addWidget(item);
 	}
 }
+#endif // !LAMPYRIS_DESIGN

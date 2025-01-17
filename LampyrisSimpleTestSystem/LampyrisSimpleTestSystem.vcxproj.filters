@@ -94,9 +94,6 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Args.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Singleton.h">
       <Filter>Source Files</Filter>
     </ClInclude>

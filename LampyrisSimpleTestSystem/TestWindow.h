@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_TEST
 // QT Include(s)
 #include <QtWidgets/QWidget>
 #include <QDateTime>
@@ -29,3 +30,4 @@ private:
 	QDateTime                 m_endDateTime;
 	QTimer*                   m_timer;
 };
+#endif // !LAMPYRIS_TEST

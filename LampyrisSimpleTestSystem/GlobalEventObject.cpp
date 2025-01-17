@@ -5,8 +5,10 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_TEST
 // Project Include(s)
 #include "GlobalEventObject.h"
 
 GlobalEventObjectClass GlobalEventObjectClass::globalEvent;
 
+#endif // !LAMPYRIS_TEST

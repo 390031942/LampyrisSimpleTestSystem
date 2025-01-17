@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_DESIGN
 // QT Include(s)
 #include <QMainWindow>
 #include <QTableWidget>
@@ -47,3 +48,4 @@ private:
 	QShortcut*            m_shortcut;
 	Ui::DesignWindowClass m_ui;
 };
+#endif // !LAMPYRIS_DESIGN

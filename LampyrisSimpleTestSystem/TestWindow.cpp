@@ -4,7 +4,7 @@
  * File created at 2025-01-13
  * Author: TengZ.
  */
-
+#ifdef LAMPYRIS_TEST
  // Project Include(s)
 #include "TestWindow.h"
 #include "PathUtil.h"
@@ -57,6 +57,8 @@ TestWindow::TestWindow(const QString& workerNumber,QWidget *parent)
 	});
 
 	this->setFixedSize(1280, 720);
+
+	GlobalDataObject::testInfo.workerNumber = this->m_workerNumber;
 }
 
 TestWindow::~TestWindow()
@@ -92,3 +94,4 @@ void TestWindow::updateWindowTitle() {
 		
 	this->setWindowTitle(title);
 }
+#endif // !LAMPYRIS_TEST

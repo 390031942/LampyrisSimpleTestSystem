@@ -5,6 +5,7 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_TEST
 // Project Include(s)
 #include "QuestionItem.h"
 #include "GlobalEventObject.h"
@@ -93,3 +94,4 @@ void QuestionItem::leaveEvent(QEvent* event) {
 	isMouseInside = false;
 	update();
 }
+#endif // !LAMPYRIS_TEST

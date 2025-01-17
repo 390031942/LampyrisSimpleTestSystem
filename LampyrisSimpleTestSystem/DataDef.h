@@ -32,6 +32,7 @@ struct TestInfo {
 	QString                   name;
 	int                       limitTimeSec;
 	std::vector<QuestionInfo> questions;
+	QString                   workerNumber;
 
 	bool serializeToPath(const QString& path) {
 		QJsonObject testInfoObj;

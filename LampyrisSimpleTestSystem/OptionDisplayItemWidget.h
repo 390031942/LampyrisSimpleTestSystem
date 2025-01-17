@@ -6,6 +6,8 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_DESIGN
+
  // QT Include(s)
 #include <QWidget>
 
@@ -20,3 +22,4 @@ private:
 	QString text;
 	bool    answer;
 };
+#endif // !LAMPYRIS_DESIGN

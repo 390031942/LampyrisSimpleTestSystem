@@ -8,7 +8,6 @@
 // Project Include(s)
 #include "TestEntryWindow.h"
 #include "DesignWindow.h"
-#include "Args.h"
 #include "TestAnswerWindow.h"
 #include "PathUtil.h"
 
@@ -26,32 +25,27 @@ int main(int argc, char *argv[]) {
 	// 设置全局字体为"楷体"
 	QFont font("楷体");
 	a.setFont(font);
-
-	ARGS->init(argc, argv);
-
-    QWidget* mainWindowToShow = nullptr;
-    if (ARGS->hasArgs("--design")) {
-		if (!QDir("data").exists() && !QDir().mkpath("data")) {
-			QMessageBox::critical(NULL, "天马微 测试编辑器", "无法创建data文件夹，程序将退出");
-			return -1;
-		}
-
-        mainWindowToShow = new DesignWindow;
-    }
-    else if(ARGS->hasArgs("--test")) {
-		if (!QDir("data").exists()) {
-			QMessageBox::critical(NULL, "天马微 测试软件", "无法找到data文件夹，数据损坏，程序将退出");
-			return -1;
-		}
-		if (!QFile("data/test_info.json").exists()) {
-			QMessageBox::critical(NULL, "天马微 测试软件", "无法找到test_info.json文件，数据损坏，程序将退出");
-			return -1;
-		}
-		mainWindowToShow = new TestEntryWindow;
-	}
-	else {
+	
+	QWidget* mainWindowToShow = nullptr;
+#ifdef LAMPYRIS_DESIGN
+	if (!PathUtil::existsOrCreateDataPath()) {
+		QMessageBox::critical(NULL, "天马微 测试编辑器", "无法创建data文件夹，程序将退出");
 		return -1;
 	}
+	mainWindowToShow = new DesignWindow;
+#elif defined(LAMPYRIS_TEST)
+	if (!PathUtil::existsDataPath()) {
+		QMessageBox::critical(NULL, "天马微 测试软件", "无法找到data文件夹，数据损坏，程序将退出");
+		return -1;
+	}
+	if (!PathUtil::existsTestInfoJsonPath()) {
+		QMessageBox::critical(NULL, "天马微 测试软件", "无法找到test_info.json文件，数据损坏，程序将退出");
+		return -1;
+	}
+	mainWindowToShow = new TestEntryWindow;
+#else
+    #error no specific target macro to compile.
+#endif
     mainWindowToShow->show();
 
     int returnVal = a.exec();

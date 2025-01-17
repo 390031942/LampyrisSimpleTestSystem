@@ -5,6 +5,8 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_DESIGN
+
 // Project Include(s)
 #include "OptionDisplayItemWidget.h"
 
@@ -38,3 +40,4 @@ void OptionDisplayItemWidget::paintEvent(QPaintEvent* event) {
 	painter.setPen(Qt::black);
 	painter.drawText(rect, Qt::AlignCenter, text);
 }
+#endif // !LAMPYRIS_DESIGN

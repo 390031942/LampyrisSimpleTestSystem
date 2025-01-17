@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_TEST
 // QT Include(s)
 #include <QWidget>
 #include <QLabel>
@@ -80,3 +81,4 @@ private:
 	QLabel*              imageLabel;
 	QPixmap              originalPixmap;
 };
+#endif // !LAMPYRIS_TEST

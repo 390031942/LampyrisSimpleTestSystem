@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_TEST
  // Project Include(s)
 #include <DataDef.h>
 
@@ -30,3 +31,5 @@ private:
 	bool           isMouseInside;
 	bool           isCurrentShow;
 };
+
+#endif // !LAMPYRIS_TEST

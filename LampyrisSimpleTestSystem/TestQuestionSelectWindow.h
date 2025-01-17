@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_TEST
 // Project Include(s)
 #include "DataDef.h"
 #include "QuestionItem.h"
@@ -29,3 +30,4 @@ private:
 	QuestionItem*  m_lastSelectedItem;
 	void           clearLayout(QLayout* layout);
 };
+#endif // !LAMPYRIS_TEST

@@ -5,10 +5,12 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_TEST
  // Project Include(s)
 #include "TestAnswerWindow.h"
 #include "DataDef.h"
 #include "GlobalEventObject.h"
+#include "PathUtil.h"
 
  // QT Include(s)
 #include <QVBoxLayout>
@@ -18,6 +20,9 @@
 #include <QResizeEvent>
 #include <QApplication>
 #include <QScrollBar>
+
+// 3rd-party Include(s)
+#include <QtXlsx/xlsxdocument.h>
 
 #pragma execution_character_set("utf-8")
 
@@ -189,6 +194,29 @@ void TestAnswerWindow::checkAnswers() {
 	answerLabel->show();
 	showAnswer = true;
 
+	QString path = PathUtil::getExcelOutputPath(GlobalDataObject::testInfo.workerNumber);
+
+	// 创建一个新的Excel文档
+	QXlsx::Document xlsx;
+
+	// 写入数据到单元格
+	xlsx.write(1, 1, "正确率");
+	xlsx.write(1, 2, QString("%1%").arg(perc * 100.0f, 0, 'f', 1));
+	xlsx.write(3, 1, "题号");
+	xlsx.write(3, 2, "答案");
+	xlsx.write(3, 3, "正确答案");
+	
+	for (int i = 0; i < GlobalDataObject::answerInfo.size(); i++) {
+		QXlsx::Format format;
+		format.setFontColor(GlobalDataObject::answerInfo[i].status == QuestionStatus::Correct ? Qt::black : Qt::red);
+
+		xlsx.write(4 + i, 1, QString("题%1").arg(i + 1));
+		xlsx.write(4 + i, 2, answerList[i], format);
+		xlsx.write(4 + i, 3, rightAnswerList[i]);
+	}
+	// 保存Excel文档到文件
+	xlsx.saveAs(path);
+
 	this->updateRightAnswer();
 }
 
@@ -329,3 +357,4 @@ void ImageDialog::mouseReleaseEvent(QMouseEvent* event) {
 		QDialog::mouseReleaseEvent(event);
 	}
 }
+#endif // !LAMPYRIS_TEST

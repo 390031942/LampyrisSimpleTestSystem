@@ -5,6 +5,7 @@
  * Author: TengZ.
  */
 
+#ifdef LAMPYRIS_TEST
  // Project Include(s)
 #include "TestQuestionSelectWindow.h"
 #include "GlobalEventObject.h"
@@ -102,3 +103,4 @@ void TestQuestionSelectWindow::clearLayout(QLayout* layout) {
 		delete item;
 	}
 }
+#endif // !LAMPYRIS_TEST

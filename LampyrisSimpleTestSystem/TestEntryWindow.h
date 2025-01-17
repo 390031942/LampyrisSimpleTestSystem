@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_TEST
  // QT Include(s)
 #include <QWidget>
 
@@ -24,3 +25,4 @@ private slots:
 private:
 	Ui::TestEntryWindowClass m_ui;
 };
+#endif // !LAMPYRIS_TEST

@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_TEST
 // Project Include(s)
 #include "DataDef.h"
 
@@ -26,3 +27,5 @@ Q_SIGNALS:
 #ifndef GlobalEventObject
 #define GlobalEventObject GlobalEventObjectClass::globalEvent
 #endif // !GlobalEventObject
+
+#endif // !LAMPYRIS_TEST

@@ -6,6 +6,7 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_DESIGN
 // QT Include(s)
 #include <QMainWindow>
 #include <QTableWidget>
@@ -42,3 +43,5 @@ private:
 	int           contextMenuRow;
 	QButtonGroup* buttonGroup;
 };
+
+#endif // !LAMPYRIS_DESIGN

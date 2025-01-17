@@ -4,7 +4,7 @@
  * File created at 2025-01-13
  * Author: TengZ.
  */
-
+#ifdef LAMPYRIS_DESIGN
  // Project Include(s)
 #include "DesignWindow.h"
 #include "OptionEditorWindow.h"
@@ -288,3 +288,4 @@ void DesignWindow::onCellDoubleClicked(int row, int column) {
 		onEditOptions(row);
 	}
 }
+#endif // !LAMPYRIS_DESIGN

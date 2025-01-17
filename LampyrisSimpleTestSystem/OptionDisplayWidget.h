@@ -6,6 +6,8 @@
  */
 #pragma once
 
+#ifdef LAMPYRIS_DESIGN
+
  // QT Include(s)
 #include <QWidget>
 #include <QHBoxLayout>
@@ -21,3 +23,4 @@ public:
 private:
 	QHBoxLayout* layout;
 };
+#endif // !LAMPYRIS_DESIGN

@@ -10,6 +10,7 @@
 #include <QDir>
 #include <QString>
 #include <QApplication>
+#include <QDateTime>
 
 class PathUtil {
 public:
@@ -27,4 +28,29 @@ public:
 		QString ret = getDataPath() + "/test_info.json";
 		return ret;
 	}
+
+	static bool existsOrCreateDataPath() {
+		QString path = getDataPath();
+		return QDir(path).exists() || !QDir().mkpath(path);
+	}
+
+	static bool existsDataPath() {
+		QString path = getDataPath();
+		return QDir(path).exists();
+	}
+
+	static bool existsTestInfoJsonPath() {
+		QString path = getTestInfoJsonPath();
+		return QFile(path).exists();
+	}
+
+#ifdef LAMPYRIS_TEST
+	static QString getExcelOutputPath(const QString& workNumber) {
+		QString path = QDir(QApplication::applicationDirPath()).absolutePath() + "/result";
+		if (!QDir(path).exists()) {
+			QDir().mkpath(path);
+		}
+		return path + "/result_" + workNumber + "_" + QDateTime::currentDateTime().toString("yyyyMMdd") + ".xlsx";
+	}
+#endif // !LAMPYRIS_TEST
 };
